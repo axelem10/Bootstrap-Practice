@@ -1,3 +1,11 @@
+:root {
+  --color-vivid-sky: #49C6E5;
+  --color-sky-blue: #54defd;
+  --color-snow: #FFFBFA;
+  --color-mountain: #00BD9D;
+  --color-middle-blue: #8BD7D2;
+}
+
 .text-platzi {
   font-weight: bold !important;
   color: #FFFBFA !important;
@@ -39,6 +47,19 @@
 #main .overlay .container,
 #main .overlay .row {
   height: 100%;
+}
+
+#place-time {
+  max-height: 700px;
+  background: rgb(73, 198, 229);
+  background: radial-gradient(circle, rgb(73, 198, 229) 0%, rgb(255, 255, 255) 100%);
+}
+
+#place-time img {
+  max-height: 700px;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #footer {

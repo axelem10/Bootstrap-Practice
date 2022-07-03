@@ -1,3 +1,10 @@
+:root {
+    --color-vivid-sky: #49C6E5;
+    --color-sky-blue: #54defd;
+    --color-snow: #FFFBFA;
+    --color-mountain: #00BD9D;
+    --color-middle-blue: #8BD7D2;
+}
 .text-platzi {
     font-weight: bold !important;
     color: #FFFBFA !important;
@@ -42,6 +49,18 @@
     height: 100%;
 }
 
+#place-time {
+    max-height: 700px;
+    background: rgb(73,198,229);
+    background: radial-gradient(circle, rgba(73,198,229,1) 0%, rgba(255,255,255,1) 100%);}
+
+#place-time {
+    img {
+        max-height: 700px;
+        height: 100%;
+        object-fit: cover;
+    }
+}
 
 #footer {
     background: rgb(84,222,253);
